@@ -17,10 +17,10 @@ function App() {
     <div className="App">
       <pre>{JSON.stringify(userInfo, undefined, 2)}</pre>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <h1>Registration form</h1>
-        <div>
-          <label>Username</label>
-          <input type='text' name='userName' placeholder='Username' {...register('userName', { required: "Username is required " })} />
+        <h1 className='text-4xl text-red-500 font-bold'>Registration form</h1>
+        <div className="border-solid border border-indigo-600">
+          <label className="text-xl text-slate-700 font-semibold ">Username -</label>
+          <input className="border-solid border-2 border-black ml-3 pl-2 rounded" type='text' name='userName' placeholder='Username' {...register('userName', { required: "Username is required " })} />
         </div>
         <p>{errors.userName?.message}</p>
         <div>
