@@ -1,3 +1,29 @@
-.App {
-  text-align: center;
+.container {
+    @apply w-full h-screen flex items-center justify-center 
+     bg-slate-800
+}
+
+.reg_Form {
+    @apply w-[687px] border-solid border-2  rounded-[8px]
+    flex items-center justify-center bg-[#e3f0fa]
+}
+
+.form_content {
+    @apply text-center w-full
+    border-solid  
+}
+.form_content input  {
+    @apply text-center w-[80%] h-[50px]  mb-10 rounded-[8px]
+     border-solid border border-black bg-white
+     text-[23px] font-sans font-normal text-slate-950
+    
+}
+.form_content button  {
+    @apply font-sans text-3xl font-normal  text-black
+    border-2 border-solid border-white  px-[50px] py-[15px] mb-12
+    bg-[#98c8e2] rounded-[8px]
+    
+}
+.form_content p{
+    @apply font-sans text-[20px] text-red-600 font-thin mb-5
 }
