@@ -13,7 +13,7 @@
     border-solid  
 }
 .form_content input  {
-    @apply text-center w-[80%] h-[50px]  mb-10 rounded-[8px]
+    @apply text-center w-[80%] h-[50px]   rounded-[8px]
      border-solid border border-black bg-white
      text-[23px] font-sans font-normal text-slate-950
     
@@ -25,5 +25,5 @@
     
 }
 .form_content p{
-    @apply font-sans text-[20px] text-red-600 font-thin mb-5
+    @apply font-sans text-[20px] text-red-600  font-thin mb-10
 }
